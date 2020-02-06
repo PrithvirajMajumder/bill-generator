@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  .header-info {
+    background: blanchedalmond;
+    height: auto;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+.info-details {
+  border: 1px solid black;
+  padding: 1px;
+  margin: 1px;
+  #info-details {
+    margin: 0;
+  }
+}
+.to-details-display {
+  p {
+    margin: 0;
+  }
+}
