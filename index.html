@@ -3,46 +3,156 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
     <link rel="stylesheet" href="./dis/css/style.min.css" />
+    <!-- <link rel="stylesheet" href="./debug.css" /> -->
+
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="header-info">
-        <div class="info-details" id="escon-details">
-          <h1 id="info-details">Escon Engineering Co.</h1>
-          <p id="info-details">Specialist in: Water Treatment Engineering</p>
+    <div class="container" style="text-align: center; margin-bottom: 3rem; margin-top: 1rem;">
+      <h1 class="title">Tax Invoice</h1>
+    </div>
+
+    <div class="container">
+      <div class="columns">
+        <div class="column add-border">
+          <div class="header-info">
+            <div class="info-details" id="escon-details">
+              <h1 id="info-details">Escon Engineering Co.</h1>
+              <p id="info-details">
+                Specialist in: Water Treatment Engineering
+              </p>
+            </div>
+            <div class="info-details">
+              <p id="info-details">
+                Address – 153/38 SN Roy Road, Adarshapally,<br />Kolkata –
+                700038
+              </p>
+            </div>
+            <div class="info-details">
+              <p id="info-details">GSTIN – 19BBMPM8948K1ZN</p>
+            </div>
+            <div class="info-details">
+              <p id="info-details">Phone – 9432104354</p>
+            </div>
+            <div class="info-details">
+              <p id="info-details">Email - gautammajumder2@gmail.com</p>
+            </div>
+          </div>
         </div>
-        <div class="info-details">
-          <p id="info-details">
-            Address – 153/38 SN Roy Road, Adarshapally,<br />Kolkata – 700038
-          </p>
-        </div>
-        <div class="info-details">
-          <p id="info-details">GSTIN – 19BBMPM8948K1ZN</p>
-        </div>
-        <div class="info-details">
-          <p id="info-details">Phone – 9432104354</p>
-        </div>
-        <div class="info-details">
-          <p id="info-details">Email - gautammajumder2@gmail.com</p>
+        <div class="column add-border">
+          <div class="header-info">
+            <div class="to-details-display name-address info-details">
+              <p>To,</p>
+              <p id="party-name">Orient Beverage limited</p>
+              <p id="party-address">Rukka Road, Ormanjhi, Ranchi</p>
+              <p id="party-city">Jharkhand-835138</p>
+            </div>
+            <div class="to-details-display invoice-details info-details">
+              <p id="party-invoice-no">Invoice No - 26</p>
+              <p id="party-date">Date-26/12/2019</p>
+              <p id="party-vehicle">Vehicle No-</p>
+              <p id="party-gstin">GSTIN – 20AAACO2862P1ZD</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="header-info">
-        <div class="to-details-display name-address info-details">
-          <p>To,</p>
-          <p id="party-name">Orient Beverage limited</p>
-          <p id="party-address">Rukka Road, Ormanjhi, Ranchi</p>
-          <p id="party-city">Jharkhand-835138</p>
+    </div>
+
+    <div class="container add-top-margin">
+      <div class="columns">
+        <div class="column is-half">
+          <div class="columns">
+            <div class="column add-border is-narrow">
+              <h1 class="title is-6 has-text-centered">SL</h1>
+            </div>
+
+            <div class="column add-border">
+              <h1 class="title is-6 has-text-centered">Description</h1>
+            </div>
+          </div>
         </div>
-        <div class="to-details-display invoice-details info-details">
-          <p id="party-invoice-no">Invoice No - 26</p>
-          <p id="party-date">Date-26/12/2019</p>
-          <p id="party-vehicle">Vehicle No-</p>
-          <p id="party-gstin">GSTIN – 20AAACO2862P1ZD</p>
+
+        <div class="column add-border">
+          <h1 class="title is-6 has-text-centered">HSN Code</h1>
+        </div>
+
+        <div class="column add-border">
+          <h1 class="title is-6 has-text-centered">Quantity</h1>
+        </div>
+        <div class="column add-border">
+          <h1 class="title is-6 has-text-centered">Rate</h1>
+        </div>
+        <div class="column add-border">
+          <h1 class="title is-6 has-text-centered">Amount</h1>
         </div>
       </div>
-    </header>
+      <div class="columns">
+        <div class="column is-half ">
+          <div class="columns">
+            <div class="column add-border is-narrow">
+              <h1 class="title is-6 has-text-centered">01</h1>
+            </div>
+            <div class="column add-border " "></div>
+          </div>
+        </div>
+        <div class="column add-border"></div>
+        <div class="column add-border"></div>
+        <div class="column add-border"></div>
+        <div class="column add-border"></div>
+      </div>
+      <div class="columns add-top-margin">
+        <div class="column is-paddingless">
+          <div class="column add-border">
+            <h1 class="subtitle">Total:-</h1>
+          </div>
+          <div class="column">
+            <div class="columns">
+              <div class="column add-border">
+                <p class="subtitle">Reciever Signatory</p>
+              </div>
+              <div class="column add-border">
+                <p class="subtitle">
+                  E.&O.E.
+                  <br />
+                  <br />
+                  <br />
+                  For Escon Engineering Co.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column ">
+          <div class="columns">
+            <div class="column is-paddingless">
+              <div class="column add-border is-paddingless">
+                <p class="subtitle">Total</p>
+              </div>
+              <div class="column add-border is-paddingless">
+                <p class="subtitle">SGST%</p>
+              </div>
+              <div class="column add-border is-paddingless">
+                <p class="subtitle">CGST%</p>
+              </div>
+              <div class="column add-border is-paddingless">
+                <p class="subtitle">IGST%</p>
+              </div>
+              <div class="column add-border is-paddingless">
+                <p class="subtitle">Round Off</p>
+              </div>
+              <div class="column add-border is-paddingless">
+                <p class="subtitle" style="margin-bottom: 7px;">Grand Total</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

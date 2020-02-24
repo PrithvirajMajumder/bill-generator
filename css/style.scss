@@ -1,7 +1,21 @@
 @import "header";
-body {
-  margin: 0;
-  padding: 2rem;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+
+$topMargin: 2rem;
+$globalBorder: 2px solid black;
+
+.a4-container {
+  width: 2480px;
+  height: 3508px;
+}
+
+.add-border {
+  border: $globalBorder;
+}
+
+.add-top-margin {
+  margin-top: $topMargin;
+}
+
+.vertical-alligned {
+  flex-direction: column;
 }
